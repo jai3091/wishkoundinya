@@ -15,7 +15,7 @@ launch_gift(){
     echo  "You need Docker to get your gift. Its simple - https://docs.docker.com/docker-for-mac/install/";
   fi
 
-  if docker run --name wishkoundinya -d -p 80:80 jaikumar3012/wishkoundinya:29; then
+  if docker run -d -p 80:80 jaikumar3012/wishkoundinya:29; then
     echo  "Pirandha Naal Nalvazhthukal!!! Open browser and type http://localhost to access your gift";
   else
     echo  "You need Docker to get your gift. Its simple - https://docs.docker.com/docker-for-mac/install/";
