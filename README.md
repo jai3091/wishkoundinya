@@ -4,7 +4,7 @@
 
 
 - Clone the repository
-- Give the execute permission to the shell script. chmod 755 launchmygift.sh
+- Give execute permission to the shell script. chmod 755 launchmygift.sh
 - Execute the shell script to get your gift: ./launchmygift.sh
 
 Have a great year ahead !!!! :D
